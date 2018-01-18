@@ -1040,7 +1040,6 @@ h4, .h4 {
 }
 .show-form-overlay .form-overlay {
     z-index: 9999999999;
-    opacity: 0.9;
 }
 #contact .input-wrap.has-error input, #contact .input-wrap.has-error textarea { background: rgb(255, 60, 60); }
 #contact .input-wrap.has-error svg path { fill: rgb(255, 60, 60); }
