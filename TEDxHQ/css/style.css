@@ -1490,5 +1490,17 @@ h4, .h4 {
     @media only screen and (max-width : 320px) {
 
     }
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
-
+.codeblock { 
+	font: bold 2em monospace;
+  color: #38abe5;
+	border-right: .1em solid #848484;
+	width: calc(0.55em * 14); 
+	width: 31ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 3s steps(31, end),
+	           blink-caret .5s step-end infinite alternate;
+}
